@@ -21,3 +21,15 @@ p {
   /* font-weight: 600; */
   color: #333;
 }
+
+@media only screen and (max-width: 768px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productImg {
+    width: 100%;
+    height: 70%;
+  }
+}
