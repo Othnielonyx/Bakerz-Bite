@@ -1,8 +1,11 @@
-<div class="products">
+<div>
+  <h1 class="product-header">Our Products</h1>
+  <div class="products">
   <div class="product" *ngFor="let product of products">
     <img class="productImg" [src]="product.path" alt="product image">
     <h2>{{ product.name }}</h2>
-    <p>{{ product.description }}</p>
-    <p>Price: {{ product.price }}</p>
+    <!-- <p>{{ product.description }}</p> -->
+    <!-- <p>Price: {{ product.price }}</p> -->
   </div>
+</div>
 </div>

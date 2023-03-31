@@ -1,3 +1,6 @@
+.home {
+	margin-bottom: 70px;
+}
 .navbar {
 	display: flex;
 	gap: 50px;
@@ -26,5 +29,41 @@ ul li a:hover {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	color: white;
+	/* filter: contrast(50%); */
 }
 
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.intro h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.intro p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.intro button {
+	background-color: #5FCAC7;
+	color: white;
+	border: none;
+	padding: 20px 30px;
+	border-radius: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+}
+
+.intro button:hover {
+	transform: scale(1.2);
+}

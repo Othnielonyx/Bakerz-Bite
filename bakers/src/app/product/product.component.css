@@ -5,6 +5,12 @@
   justify-content: center;
 }
 
+.product-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
 .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
