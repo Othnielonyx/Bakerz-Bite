@@ -8,6 +8,12 @@
 	margin: 10px 0 10px 10px
 }
 
+.logo {
+	width: 10%;
+	border-radius: 50%;
+}
+
+
 .menu {
 	display: flex;
 	gap: 20px;
