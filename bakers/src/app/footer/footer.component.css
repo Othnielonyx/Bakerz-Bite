@@ -1,0 +1,103 @@
+.footer1 {
+  background-color: #2a2a2a;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer1 .wrapper {
+  flex-wrap: wrap;
+}
+
+.footer1 .menu__items {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.footer1 .menu__items:hover {
+  color: #e43a45;
+}
+
+.footer1 .logo__image {
+  width: 100px;
+  height: 100px;
+  margin-right: 500px;
+}
+
+.footer1 .privacy {
+  margin-top: 20px;
+}
+.social-media {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social{
+  float: right;
+  margin: 10;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: black;
+}
+
+.fa-facebook{
+  margin: 10px;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-twitter{
+  margin: 10px;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-instagram{
+  margin: 10px;
+}
+
+.fa-instagram:hover {
+  color: #E1306C;
+}
+
+.fa-pinterest{
+  margin: 10px;
+}
+
+.fa-pinterest:hover {
+  color: #BD081C;
+}
+
+.fa-whatsapp{
+  margin: 10px;
+}
+
+.fa-whatsapp:hover {
+  color: #1abd08;
+}
+
+
+@media (max-width: 767px) {
+  .footer1 .wrapper {
+    flex-direction: column;
+  }
+  .footer1 .col-lg-4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .footer1 .brand {
+    margin-bottom: 30px;
+  }
+  .footer1 .privacy {
+    margin-top: 30px;
+  }
+}
