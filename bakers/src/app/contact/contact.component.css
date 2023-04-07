@@ -2,7 +2,6 @@
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
-    background-color: aliceblue;
   }
 
   .title__feedback {
@@ -32,7 +31,7 @@
   }
   
   button[type="submit"] {
-    background-color: #5FCAC7;
+    background-color: #936363;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -42,7 +41,7 @@
   
   button[type="submit"]:hover {
     color: #000000;
-    border: 1px solid #5FCAC7;
+    border: 1px solid #936363;
     background-color: #fff;
   }
   
@@ -70,13 +69,13 @@
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
-    background-color: #5FCAC7;
+    background-color: #936363;
     color: #fff;
   }
   
   .social__link:hover {
     background-color: #fff;
     color: #000000;
-    border: 1px solid #5FCAC7;
+    border: 1px solid #936363;
   }
   

@@ -27,7 +27,7 @@ ul li a {
 }
 
 ul li a:hover {
-	color: #5FCAC7
+	color: #936363
 }
 
 .home-img {
@@ -58,7 +58,7 @@ ul li a:hover {
 }
 
 .intro button {
-	background-color: #5FCAC7;
+	background-color: #936363;
 	color: white;
 	border: none;
 	padding: 20px 30px;
@@ -73,3 +73,5 @@ ul li a:hover {
 .intro button:hover {
 	transform: scale(1.2);
 }
+
+
