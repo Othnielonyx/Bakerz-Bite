@@ -3,10 +3,10 @@
     <img class="logo" src="../../assets/images/logoimg.png" alt="Logo image">
     <ul class="menu">
       <li><a routerLink="/">Home</a></li>
-      <li><a routerLink="/product">About</a></li>
-      <li><a routerLink="/product">Product</a></li> 
-      <li><a routerLink="/product">Merchandise</a></li>
-      <li><a routerLink="/product">Contact</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li><a routerLink="">Product</a></li> 
+      <li><a routerLink="">Merchandise</a></li>
+      <li><a routerLink="">Contact</a></li>
     </ul>
   </nav>
   <div class="home-img">
@@ -15,9 +15,14 @@
       <p>Opening Hours</p>
       <p>Mondey-Friday: 07:30 AM - 23:00 PM</p>
       <p>Weekends: 07:30 AM - 03:00 PM</p>
-      <button type="button">
-        Offers
+      <button type="button" class="offer-link">
+        <a routerLink="/offers">Offers</a>
       </button>
     </div>
   </div>
+  <app-product></app-product>
+  <app-merchandise></app-merchandise>
+  <app-contact></app-contact>
+  <app-scrollingticker></app-scrollingticker>
+  <app-footer></app-footer>
 </div>

@@ -1,11 +1,13 @@
-.home {
-	margin-bottom: 70px;
-}
 .navbar {
 	display: flex;
 	gap: 50px;
 	align-items: center;
 	margin: 10px 0 10px 10px
+}
+
+.offer-link a {
+	text-decoration: none;
+	color: white;
 }
 
 .logo {
@@ -36,7 +38,7 @@ ul li a:hover {
 	background-position: center;
 	height: 100vh;
 	color: white;
-	/* filter: contrast(50%); */
+	margin-bottom: 70px;
 }
 
 .intro {
