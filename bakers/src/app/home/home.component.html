@@ -3,25 +3,25 @@
     <img class="logo" src="../../assets/images/logoimg.png" alt="Logo image">
     <ul class="menu">
       <li><a routerLink="/">Home</a></li>
-      <li><a routerLink="/about">About</a></li>
       <li><a href="#product">Product</a></li> 
       <li><a href="#merchandise">Merchandise</a></li>
+      <li><a href="#aboutus">About Us</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
   <div class="home-img">
     <div class="intro">
       <h1>Welcome to Bakerz Bite</h1>
+      <p>Where smiles are served daily</p>
       <p>Opening Hours</p>
       <p>Mondey-Friday: 07:30 AM - 23:00 PM</p>
       <p>Weekends: 07:30 AM - 03:00 PM</p>
-      <button type="button" class="offer-link">
-        <a routerLink="/offers">Offers</a>
-      </button>
+      <button class="btn btn-primary" ng-click="openModal()">Offer</button>
     </div>
   </div>
   <app-product id="product"></app-product>
   <app-merchandise id="merchandise"></app-merchandise>
+  <app-aboutus id="aboutus"></app-aboutus>
   <app-contact id="contact"></app-contact>
   <app-scrollingticker></app-scrollingticker>
   <app-footer></app-footer>

@@ -1,0 +1,38 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .text {
+    width: 60%;
+  }
+  
+  .text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text p {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    width: 35%;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
