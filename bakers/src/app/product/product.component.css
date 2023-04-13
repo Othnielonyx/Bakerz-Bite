@@ -16,6 +16,20 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+button {
+  background-color: #936363;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #936363;
+}
+
 .productImg {
   width: 70%;
   height: 60%;
